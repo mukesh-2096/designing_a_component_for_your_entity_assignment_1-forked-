@@ -1,0 +1,56 @@
+.usercard {
+    width: 350px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #ffffff, #f1f4f9);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .usercard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15), 0 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .usercard-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 4px solid black;
+  }
+  
+  .usercard-name {
+    font-size: 1.6em;
+    margin: 10px 0;
+    color: #333333;
+  }
+  
+  .usercard-email,
+  .usercard-phone,
+  .usercard-address {
+    margin: 8px 0;
+    font-size: 1em;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .usercard-email {
+    color: #1e88e5;
+    font-weight: bold;
+  }
+  
+  .usercard-phone {
+    color: #43a047;
+  }
+  
+  .usercard-address {
+    color: #6d6d6d;
+    font-style: italic;
+  }
+  

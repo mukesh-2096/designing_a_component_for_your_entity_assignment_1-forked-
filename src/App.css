@@ -1,3 +1,12 @@
+/* Set the entire page background to black */
+body {
+  background-color: black; /* Black background for the page */
+  color: white; /* White text for visibility on a black background */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Keep the existing styles */
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -11,9 +20,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
